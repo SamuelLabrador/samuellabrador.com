@@ -1,0 +1,41 @@
+body{
+	margin: 0;
+}
+
+/* Navigation bar styling */
+.navbar{
+	background-color: black;
+	padding: 0;	
+}
+
+.navbar ul{
+	overflow: hidden;
+	list-style: none;
+	padding: 1%;
+	margin: 0;
+}
+
+.navbar li{
+	display: inline;
+	font-size: 30px;
+	padding-left: 1%;
+	padding-right: 1%;
+}
+
+li.left{
+	float: left;
+}
+
+li.right{
+	float: right;
+}
+
+.navbar a{
+	color: white;
+	text-decoration: none;
+}
+
+.navbar a:hover{
+	background-color: white;
+	color: black;
+}
