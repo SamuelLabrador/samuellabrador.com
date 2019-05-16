@@ -4,8 +4,10 @@ body{
 
 /* Navigation bar styling */
 .navbar{
+	position: fixed;
 	background-color: black;
 	padding: 0;	
+	width: 100%;
 }
 
 .navbar ul{
