@@ -4,7 +4,7 @@ body{
 
 /* Navigation bar styling */
 .navbar{
-	position: fixed;
+	display: block;
 	background-color: black;
 	padding: 0;	
 	width: 100%;
@@ -40,4 +40,9 @@ li.right{
 .navbar a:hover{
 	background-color: white;
 	color: black;
+}
+
+/* Main */
+.main{
+
 }
